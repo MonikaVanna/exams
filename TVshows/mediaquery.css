@@ -1,0 +1,77 @@
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #203040;
+    }
+    .topshows,
+    .k-dramas,
+    .comedy,
+    .romance {
+        grid-template-columns: 1fr; 
+
+
+    }
+    .ts-card{
+        height: 210px;
+        width: 650px;
+        grid-template-columns: 250px 1fr;
+        grid-template-rows: auto;
+
+    }
+    .k-card{
+        height: 210px;
+        width: 650px;
+        grid-template-columns: 250px 1fr;
+        grid-template-rows: auto;
+
+    }
+    .c-card{
+        height: 210px;
+        width: 650px;
+        grid-template-columns: 250px 1fr;
+        grid-template-rows: auto;
+
+    }
+    .r-card{
+        height: 210px;
+        width: 650px;
+        grid-template-columns: 250px 1fr;
+        grid-template-rows: auto;
+
+    }
+    .gallery-wrapper{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 200px 200px 200px 200px;
+        grid-template-areas: 
+        "L1 L1 L1"
+        "P1 L2 P2"
+        "P1 L3 P2"
+        "L4 L4 L4";
+    }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+    body{
+        background-color: #203040;
+    }
+    .topshows,
+    .k-dramas,
+    .comedy,
+    .romance {
+        grid-template-columns: 1fr 1fr; 
+        gap: 10px;
+
+
+    }
+    .gallery-wrapper{
+        grid-template-rows: 200px 400px 200px 200px;
+        grid-template-areas: 
+        "L4 L4 P2"
+        "P1 L2 P2"
+        "P1 L3 L3"
+        "L1 L1 L1";
+    }
+
+
+}
